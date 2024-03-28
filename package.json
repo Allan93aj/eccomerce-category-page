@@ -1,7 +1,6 @@
 {
-  "name": "desenvolvedor-m3",
-  "version": "1.0.0",
-  "description": "Desafio da agencia m3 para novos colaboradores",
+n  "version": "1.0.0",
+  "description": "Desafio da Cadastra para novos colaboradores",
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/cross-env SERVER_API=http://localhost:5000 npm-run-all --parallel dev server",
@@ -11,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agenciam3/Desenvolvedor-M3.git"
+    "url": "git+https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra"
   },
   "author": "Heraldo Ecard Roque Filho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/agenciam3/Desenvolvedor-M3/issues"
+    "url": "https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra/issues"
   },
-  "homepage": "https://github.com/agenciam3/Desenvolvedor-M3#readme",
+  "homepage": "https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "del": "^6.0.0",
