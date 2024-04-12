@@ -10,10 +10,188 @@
 </head>
 
 <body>
+  <header>
+    <div class="container-header">
+      <div class="logo">
+        <a href="/">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="cart">
+        <img src="img/cart.png" alt="">
+        <div id="count">0</div>
+
+
+      </div>
+    </div>
+
+  </header>
+  <div class="main-container">
+    <div class="filter">
+      <h1>Blusas</h1>
+
+
+      <div id="filters" class="filters-mobile">
+        <div class="txt-filtrar ocultar-dt">
+          <h2>FILTRAR</h2>
+          <button class="close-menu"><img src="img/close.png" alt=""></button>
+        </div>
+        <div class="wrapper-filters">
+        <button class="accordion only-mobile">
+          <h2>CORES</h2>
+          <img src="img/arrowdown.png" alt="">
+        </button>
+        <fieldset class="cores panel">
+          <legend class="ocultar-mb">CORES</legend>
+          <div class="wrapper-label">
+          <label for="yellow-filter">
+            <input type="checkbox" id="yellow-filter" name="color" value="Amarelo"> Amarelo
+          </label>
+          <label for="blue-filter">
+            <input type="checkbox" id="blue-filter" name="color" value="Azul"> Azul
+          </label>
+          <label for="white-filter">
+            <input type="checkbox" id="white-filter" name="color" value="Branco"> Branco
+          </label>
+          <label for="grey-filter">
+            <input type="checkbox" id="grey-filter" name="color" value="Cinza"> Cinza
+          </label>
+          <label for="orange-filter">
+            <input type="checkbox" id="orange-filter" name="color" value="Laranja"> Laranja
+          </label>
+          <label for="green-filter" class="oculto">
+            <input type="checkbox" id="green-filter" name="color" value="Verde"> Verde
+          </label>
+          <label for="red-filter" class="oculto">
+            <input type="checkbox" id="red-filter" name="color" value="Vermelho"> Vermelho
+          </label>
+          <label for="black-filter" class="oculto">
+            <input type="checkbox" id="black-filter" name="color" value="Preto"> Preto
+          </label>
+          <label for="pink-filter" class="oculto">
+            <input type="checkbox" id="pink-filter" name="color" value="Rosa"> Rosa
+          </label>
+          <label for="wine-filter" class="oculto">
+            <input type="checkbox" id="wine-filter" name="color" value="Vinho"> Vinho
+          </label>
+          </div>
+        </fieldset>
+
+        <p id="ver-todas-as-cores"><u>Ver todas as cores </u></p>
+
+        <button class="accordion only-mobile">
+          <h2>TAMANHOS</h2>
+          <img src="img/arrowdown.png" alt="">
+        </button>
+        <fieldset class="tamanhos panel">
+          <legend class="ocultar-mb">TAMANHOS</legend>
+          <label for="small-filter">
+            <input type="checkbox" id="small-filter" name="size" value="P">
+            <span>P</span>
+          </label>
+          <label for="medium-filter">
+            <input type="checkbox" id="medium-filter" name="size" value="M">
+            <span>M</span>
+          </label>
+          <label for="large-filter">
+            <input type="checkbox" id="large-filter" name="size" value="G">
+            <span>G</span>
+          </label>
+          <label for="extra-large-filter">
+            <input type="checkbox" id="extra-large-filter" name="size" value="GG">
+            <span>GG</span>
+          </label>
+          <label for="universal-filter">
+            <input type="checkbox" id="universal-filter" name="size" value="U">
+            <span>U</span>
+          </label>
+          <label for="size-36-filter">
+            <input type="checkbox" id="size-36-filter" name="size" value="36">
+            <span>36</span>
+          </label>
+          <label for="size-38-filter">
+            <input type="checkbox" id="size-38-filter" name="size" value="38">
+            <span>38</span>
+          </label>
+          <label for="size-40-filter">
+            <input type="checkbox" id="size-40-filter" name="size" value="40">
+            <span>40</span>
+          </label>
+        </fieldset>
+
+        <button class="accordion only-mobile">
+          <h2>FAIXA DE PREÇO</h2>
+          <img src="img/arrowdown.png" alt="">
+        </button>
+        <fieldset class="faixa-de-preco panel">
+          <legend class="ocultar-mb">FAIXA DE PREÇO</legend>
+          <label for="price-0-50">
+            <input type="checkbox" id="price-0-50" name="price-filter" value="0-50"> de R$0 até R$50
+          </label>
+          <label for="price-51-150">
+            <input type="checkbox" id="price-51-150" name="price-filter" value="51-150"> de R$51 até R$150
+          </label>
+          <label for="price-151-300">
+            <input type="checkbox" id="price-151-300" name="price-filter" value="151-300"> de R$151 até R$300
+          </label>
+          <label for="price-301-500">
+            <input type="checkbox" id="price-301-500" name="price-filter" value="301-500"> de R$301 até R$500
+          </label>
+          <label for="price-500+">
+            <input type="checkbox" id="price-500+" name="price-filter" value="500+"> a partir de R$ 500
+          </label>
+        </fieldset>
+      </div>
+
+        <div class="filters-btns ocultar-dt">
+          <button class="filtrar-produto">APLICAR</button>
+          <button id="limpar-filtro">LIMPAR</button>
+        </div>
+        
+      </div>
+
+    
+    </div>
+
+
+    <div class="main-cards">
+      <div class="ordenador">
+        <!-- Botão para abrir o menu lateral -->
+        <button class="open-menu">Filtrar</button>
+        <select id="sort-filter">
+          <option value="1" selected disabled hidden>Ordenar por: </option>
+          <option value="recente" value="1"> Mais recentes</option>
+          <option value="preco-crescente">Menor Preço</option>
+          <option value="preco-decrescente">Maior Preço</option>
+        </select>
+      </div>
+
+      <div id="cards" class="cards-container"></div>
+
+
+    </div>
+  </div>
+
+  <div class="carregar-mais">
+    <button id="btn-carregar-mais">Carregar mais</button>
+  </div>
+
+  <footer>
+    <p>CADASTRA: Implantação de E-commerce VTEX</p>
+  </footer>
+
+  <button id="back-to-top" style="display: none;">
+    <img src="img/arrowup.png" alt="">
+  </button>
+
 
 </body>
-<h1>Desafio Cadastra</h1>
 
+<!-- <script src="app.js"></script> -->
 <script src="bundle.js"></script>
+<script src="app.js"></script>
+
+
+
 
 </html>

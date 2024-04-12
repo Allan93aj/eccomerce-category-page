@@ -4,6 +4,7 @@ const webpack = require("webpack");
 module.exports = (paths) => ({
   entry: {
     main: path.resolve(__dirname, paths.scripts.src),
+    
   },
   output: {
     path: path.resolve(__dirname, paths.dest),

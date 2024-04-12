@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  padding: 25px 0;
+  border-bottom: 2px solid rgb(199, 199, 199);
+}
+header .container-header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+header .container-header #count {
+  width: 12px;
+  height: 12px;
+  background: rgb(251, 149, 62);
+  border-radius: 16px;
+  color: #fff;
+  top: 36px;
+  position: absolute;
+  text-align: center;
+  right: 57px;
+  font-size: 12px;
+}
+
+.main-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 5%;
+}
+.main-container .filter {
+  width: 20%;
+  background: #ccc;
+}
+.main-container .filter #filters {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.main-container .filter #filters fieldset {
+  display: flex;
+  flex-direction: column;
+}
+.main-container .ordenador {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-container .main-cards {
+  width: 70%;
+}
+.main-container .main-cards #cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.main-container .main-cards #cards .img-props {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.main-container .main-cards #cards .img-props .name-product {
+  text-transform: uppercase;
+  font-family: Open sans;
+  font-size: 14px;
+  line-height: 19.07px;
+  font-weight: 400;
+}
+.main-container .main-cards #cards .img-props .size-product,
+.main-container .main-cards #cards .img-props .color-product {
+  display: none;
+}
+.main-container .main-cards #cards .img-props .price-product {
+  font-size: 16px;
+  line-height: 21.79px;
+  font-weight: 700;
+}
+.main-container .main-cards #cards .img-props .btn-comprar {
+  background: black;
+  color: #fff;
+  width: 100%;
+  padding: 7px 49px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.07px;
+  cursor: pointer;
+}
+.main-container #load-more-btn {
+  display: block !important;
+}/*# sourceMappingURL=main.css.map */
