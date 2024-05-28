@@ -181,6 +181,17 @@ header {
       justify-content: center;
       .card-products{
         width: 199px;
+
+        .img-produto{
+          width: 195px;
+          height: 295px;
+
+          img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+          }
+        }
       }
       .card-products:nth-child(n + 10) {
         display: none;
