@@ -2,7 +2,7 @@
     "products": [
       {
         "id": "1",
-        "name": "Camisa de Moletom",
+        "name": "Camisa de Poliester",
         "price": 97.08,
         "parcelamento": [2, 48.54],
         "color": "Cinza",
@@ -101,42 +101,32 @@
         "date": "2003-12-17"
       },
       {
-        "id": "9",
-        "name": "Pochete Clutch",
+        "id": "11",
+        "name": "Camiseta de Poliéster",
         "price": 99.0,
         "parcelamento": [3, 33],
-        "color": "Preto",
-        "image": "/img/img_12.png",
+        "color": "Verde",
+        "image": "/img/img_13.png",
         "size": ["M"],
         "date": "2003-12-17"
       },
       {
-        "id": "9",
-        "name": "Pochete Clutch",
+        "id": "12",
+        "name": "Camiseta de Poliéster",
         "price": 99.0,
         "parcelamento": [3, 33],
-        "color": "Preto",
-        "image": "/img/img_12.png",
+        "color": "Vermelho",
+        "image": "/img/img_14.png",
         "size": ["M"],
         "date": "2003-12-17"
       },
       {
-        "id": "9",
-        "name": "Pochete Clutch",
+        "id": "13",
+        "name": "Camiseta de Poliéster",
         "price": 99.0,
         "parcelamento": [3, 33],
-        "color": "Preto",
-        "image": "/img/img_12.png",
-        "size": ["M"],
-        "date": "2003-12-17"
-      },
-      {
-        "id": "9",
-        "name": "Pochete Clutch",
-        "price": 99.0,
-        "parcelamento": [3, 33],
-        "color": "Preto",
-        "image": "/img/img_12.png",
+        "color": "Azul",
+        "image": "/img/img_15.png",
         "size": ["M"],
         "date": "2003-12-17"
       }
