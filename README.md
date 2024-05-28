@@ -3,10 +3,14 @@ esse projeto tem como finalidade deixar uma pagina de categoria funcional, onde 
 
 ### <h2> para o funcionamento do projeto será necessario: </h2>
 rodar na porta 3000 -- localhost:3000
-- npm run dev 
+### npm run dev 
 
 ### <h2>consumir a API  na porta 5000 </h2>
-- json-server ./db.json --port 5000
+
+na pasta:
+### json-server-eccomerce-category-page
+execute: 
+### json-server ./db.json --port 5000
 
 <img src="page.png" />
 
