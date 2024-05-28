@@ -7,7 +7,7 @@ rodar na porta 3000 -- localhost:3000
 
 ### <h2>consumir a API  na porta 5000 </h2>
 
-na pasta:
+no Repositorio:
 ### json-server-eccomerce-category-page
 execute: 
 ### json-server ./db.json --port 5000
