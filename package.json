@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "Desafio da Cadastra para novos colaboradores",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cross-env SERVER_API=http://localhost:5000 npm-run-all --parallel dev server",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra.git"
+    "url": ""
   },
   "author": "Heraldo Ecard Roque Filho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Cadastra-Next-Gen-Company/desenvolvedor-cadastra#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
@@ -44,6 +44,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "name": "desenvolvedor-cadastra",
+  "name": "eccomerce-category-page",
   "keywords": []
 }

@@ -10,10 +10,6 @@ rodar na porta 3000 -- localhost:3000
 
 ### email para contato allan.aj1993@gmail.com
 
-![image](https://github.com/Allan93aj/desenvolvedor-cadastra/assets/42648038/87613775-c09a-4df4-a9b5-5632258eed3e)
-
-![image](https://github.com/Allan93aj/desenvolvedor-cadastra/assets/42648038/347e6800-ab3c-4ac7-8255-42b93dda2131)
-
 
 
 
